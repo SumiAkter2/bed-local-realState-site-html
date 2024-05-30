@@ -1,0 +1,95 @@
+.navbar {
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0);
+}
+
+.navbar .navbar-nav .nav-link {
+    color: #000;
+}
+
+.nav-item a {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.custom-toggler {
+    background-color: #ad06090f;
+    border-color: #ad060928;
+    border: 0;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='black' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    border: 0;
+
+}
+
+.contact-btn {
+    margin-top: 10px;
+    padding: 13px 25px;
+    font-size: 18px;
+    background: #AD0609;
+    border: 0;
+    border-radius: 2px;
+    color: white;
+    font-weight: 600;
+}
+
+@media screen and (min-width: 1024px) {
+    .navbar {
+        letter-spacing: 0.1em;
+    }
+
+    .navbar .navbar-nav .nav-link {
+        padding: 0.5em 1em;
+    }
+
+
+
+    .search-and-icons button {
+        flex: 1;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    .navbar .navbar-brand img {
+        max-width: 7em;
+    }
+
+    .navbar .navbar-collapse {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: flex-end;
+    }
+
+
+}
+
+/* Mobile menu styles */
+@media (max-width: 768px) {
+    .navbar-collapse {
+        background-color: #6e7d8c;
+        /* Change to your desired background color */
+        text-align: center;
+    }
+
+    .navbar-nav .nav-item {
+        margin-top: 10px;
+        /* Add margin top to menu items */
+    }
+
+    .contact-btn {
+        order: -1;
+        /* Moves the contact button to the top */
+        margin-top: 10px;
+        padding: 13px 25px;
+        font-size: 18px;
+        background: #AD0609;
+        border: 0;
+        border-radius: 2px;
+        color: white;
+        font-weight: 600;
+        width: 100%;
+        /* Make it full width for mobile view */
+    }
+}
