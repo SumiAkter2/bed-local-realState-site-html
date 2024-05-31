@@ -24,7 +24,7 @@
   </head>
   <body>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-md bg-body-tertiary">
+    <nav class="container navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-xl">
         <a href="#">
           <img style="width: 250px" src="./img/logo3.png" alt="" />
@@ -40,9 +40,16 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item dropdown ms-5">
+            <li
+              class="nav-item dropdown ms-5"
+              data-bs-toggle="collapse"
+              href="#collapseExample"
+              role="button"
+              aria-expanded="false"
+              aria-controls="collapseExample"
+            >
               <a
                 class="nav-link dropdown-toggle"
                 href="#"
@@ -52,7 +59,7 @@
               >
                 For Sell
               </a>
-              <ul class="dropdown-menu">
+              <ul class="dropdown-menu collapse" id="collapseExample">
                 <li><a class="dropdown-item" href="#">House</a></li>
                 <li>
                   <hr class="dropdown-divider" />
@@ -177,14 +184,9 @@
               </ul>
             </li>
           </ul>
-          <div>
+          <div class="btn-section">
             <button type="button" class="primary-button">Login</button>
             <button type="button" class="primary-button">Create a List</button>
-            <!-- <div class="user-icons d-flex mb-2">
-              <div class="profile"><i class="bi bi-person"></i></div>
-              <div class="wishlist"><i class="bi bi-heart"></i></div>
-              <div class="cart"><i class="bi bi-cart3"></i></div>
-            </div> -->
           </div>
         </div>
       </div>
