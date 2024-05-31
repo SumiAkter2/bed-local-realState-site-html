@@ -1,6 +1,6 @@
 /* for banner */
 .img-container img {
-    width: 700px;
+    width: 600px;
     height: 400px;
     padding: 0 30px;
 
@@ -18,4 +18,22 @@ p a {
 
 .footer-menu a:hover {
     color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+/* Mobile menu styles */
+@media (max-width: 768px) {
+    .img-container img {
+        width: 350px;
+        padding: 0 30px;
+
+    }
 }
