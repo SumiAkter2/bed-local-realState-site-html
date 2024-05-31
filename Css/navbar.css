@@ -133,8 +133,9 @@
     }
 
 
-    .navbar-nav>.nav-item:nth-last-child(2) .dropdown-menu,
-    .navbar-nav>.nav-item:last-child .dropdown-menu {
+    .navbar-nav>.nav-item:nth-last-child(2) .dropdown-menu::after,
+    .navbar-nav>.nav-item:last-child .dropdown-menu::after {
+        content: "";
         right: 0;
         left: auto;
         margin-top: 20px;
