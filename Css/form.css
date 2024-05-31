@@ -1,0 +1,14 @@
+/* form */
+.form-container {
+    background-image: url('../img/house2.jpg');
+    background-color: rgba(250, 246, 246, 0.704);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: overlay;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.form-container .form-control {
+    margin-bottom: 10px;
+}

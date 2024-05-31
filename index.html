@@ -3,10 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>bedlocal</title>
+    <title>BedLocal</title>
+    <link rel="shortcut icon" href="./img//logo3.png" type="image/x-icon" />
     <!-- <link rel="stylesheet" href="./Css/index.css" /> -->
     <link rel="stylesheet" href="./Css/navbar.css" />
     <link rel="stylesheet" href="./Css/index.css" />
+    <link rel="stylesheet" href="./Css/form.css" />
     <!-- font-awesome -->
     <script
       src="https://kit.fontawesome.com/1b841ae4fe.js"
@@ -221,12 +223,54 @@
         </div>
       </div>
 
+      <!-- form content -->
+      <div class="container mt-5">
+        <div class="form-container p-4">
+          <h1 class="text-center fs-2 mb-5">Find Your House</h1>
+          <form>
+            <div class="row mb-3">
+              <div class="col-md-4">
+                <label for="country" class="form-label fw-bold">Country</label>
+                <input
+                  type="text"
+                  class="form-control border border-danger"
+                  id="country"
+                  placeholder="Enter country"
+                />
+              </div>
+              <div class="col-md-4">
+                <label for="state" class="form-label fw-bold">State</label>
+                <input
+                  type="text"
+                  class="form-control border border-danger"
+                  id="state"
+                  placeholder="Enter state"
+                />
+              </div>
+              <div class="col-md-4">
+                <label for="city" class="form-label fw-bold">City</label>
+                <input
+                  type="text"
+                  class="form-control border border-danger"
+                  id="city"
+                  placeholder="Enter city"
+                />
+              </div>
+            </div>
+
+            <button type="submit" class="primary-button btn-lg btn-block w-100">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+
       <!-- img slider -->
 
       <div class="container my-5">
-        <div class="row ">
+        <div class="row">
           <!-- Item 1 -->
-          <div class="col-lg-3 border p-1 rounded">
+          <div class="col-lg-3 col-md-6 border p-1 rounded">
             <div
               id="carouselExampleIndicators1"
               class="carousel slide"
