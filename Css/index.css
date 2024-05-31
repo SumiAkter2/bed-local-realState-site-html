@@ -1,7 +1,7 @@
 /* for banner */
 .img-container img {
-    width: 600px;
-    height: 400px;
+    /* width: 600px; */
+    /* height: 400px; */
     padding: 0 30px;
 
 }
@@ -30,9 +30,9 @@ p a {
 
 
 /* Mobile menu styles */
-@media (max-width: 768px) {
+@media  (max-width: 768px) {
     .img-container img {
-        width: 350px;
+        /* width: 350px; */
         padding: 0 30px;
 
     }
