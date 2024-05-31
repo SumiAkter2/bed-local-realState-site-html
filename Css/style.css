@@ -1,0 +1,45 @@
+/* Custom CSS for navbar */
+.btn-section {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-bottom: 30px;
+    margin-right: 130px;
+}
+
+.navbar-toggler {
+    margin-right: 10px;
+    /* Adjust margin for toggler */
+}
+
+.dropdown-menu {
+    max-width: calc(100vw - 20px);
+    /* Adjust as needed */
+    right: 0 !important;
+    left: auto !important;
+}
+
+.primary-button {
+    margin-top: 10px;
+    padding: 13px 25px;
+    font-size: 18px;
+    background: #AD0609;
+    border: 0;
+    border-radius: 2px;
+    color: white;
+    font-weight: 600;
+}
+
+.nav-item.dropdown.ms-5 .dropdown-menu {
+    right: 0 !important;
+    left: auto !important;
+    text-align: left;
+    margin-top: 30px;
+    /* Align dropdown menu text to right */
+}
+
+@media (max-width: 992px) {
+    .dropdown-menu {
+        max-width: calc(100vw - 20px);
+    }
+}
