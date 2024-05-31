@@ -73,7 +73,7 @@
 }
 
 /* Mobile menu styles */
-@media (max-width: 768px) {
+@media (max-width: 560px) {
     .navbar-collapse {
         background-color: #b1b8be8e;
         text-align: center;
