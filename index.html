@@ -7,10 +7,11 @@
     <!-- <link rel="stylesheet" href="./Css/index.css" /> -->
     <link rel="stylesheet" href="./Css/navbar.css" />
     <link rel="stylesheet" href="./Css/index.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
+    <!-- font-awesome -->
+    <script
+      src="https://kit.fontawesome.com/1b841ae4fe.js"
+      crossorigin="anonymous"
+    ></script>
     <!-- bootstrap -5 -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
@@ -20,6 +21,7 @@
     />
   </head>
   <body>
+    <!-- navbar -->
     <nav class="navbar navbar-expand-md bg-body-tertiary">
       <div class="container-xl">
         <a href="#">
@@ -174,8 +176,8 @@
             </li>
           </ul>
           <div>
-            <button type="button" class="contact-btn">Login</button>
-            <button type="button" class="contact-btn">Create a List</button>
+            <button type="button" class="primary-button">Login</button>
+            <button type="button" class="primary-button">Create a List</button>
             <!-- <div class="user-icons d-flex mb-2">
               <div class="profile"><i class="bi bi-person"></i></div>
               <div class="wishlist"><i class="bi bi-heart"></i></div>
@@ -189,8 +191,8 @@
     <!-- main -->
     <main>
       <!-- banner -->
-      <div class="container mt-5">
-        <div class="row">
+      <div class="container">
+        <div class="row mt-5">
           <div class="col-lg-6 col-sm-12 mb-4">
             <img
               src="./img/065_Area.jpg"
@@ -199,7 +201,7 @@
             />
           </div>
           <div class="col-lg-6 col-sm-12 ps-lg-5">
-            <h1 class="fs-1 fw-normal mt-5">
+            <h1 class="fs-1 fw-normal">
               West End Toronto Real Estate,
               <span style="color: #ad0609; font-style: italic">Reinvented</span>
             </h1>
@@ -213,53 +215,61 @@
               totam architecto, provident id consequatur cupiditate
               voluptatibus? Id commodi sapiente optio.
             </p>
+
+            <button class="primary-button">Explore More</button>
           </div>
         </div>
       </div>
     </main>
 
     <!-- footer -->
-    <footer class="mt-5">
+    <footer class="mt-5 container">
       <div class="pt-5 px-4 text-start">
         <div class="row">
           <div class="col-lg-4 col-md-6 col">
-            <p class="fs-5">Quick Link</p>
-            <div class="fs-5 fw-bold footer-menu">
-              <a href="">Sell Property</a>
-              <br />
-              <a href="">Buy Property</a>
-              <br />
+            <p class="fs-5 fw-bold">Quick Links</p>
+            <div class="footer-menu">
+              <a href="">Sell Property</a><br />
+              <a href="">Buy Property</a><br />
               <a href="">Sign In / Sign Up</a>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 col">
-            <p class="fs-5">Menu</p>
-            <div class="fs-5 fw-bold footer-menu">
-              <a href="">For Sell</a>
-              <br />
-              <a href="">For Rent</a>
-              <br />
-              <a href="">Projects</a>
-              <br />
+            <p class="fs-5 fw-bold">Menu</p>
+            <div class="footer-menu">
+              <a href="">For Sell</a><br />
+              <a href="">For Rent</a><br />
+              <a href="">Projects</a><br />
               <a href="">Hotel</a>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 col">
-            <p class="fs-5">Contact us</p>
-            <div class="fs-5 fw-bold footer-menu">
-              <p class="fs-5">+89677858543</p>
-
-              <p>Meet us</p>
-
-              <address>10807-124 Street Edmonton AB T5M 0H4</address>
-
-              <p class="fs-5">Contact us</p>
+            <p class="fs-5 fw-bold">Contact Us</p>
+            <p class="footer-para mb-1">+89677858543</p>
+            <div class="footer-menu">
+              <p class="fs-5 fw-bold mb-1">Meet us</p>
+              <address class="fs-5 mb-1 footer-para">
+                10807-124 Street Edmonton AB T5M 0H4
+              </address>
+              <p class="fs-5 mb-1">Contact with us</p>
               <div class="d-flex justify-content-start align-items-start">
-                <a href="">f</a>
-                <a href="">f</a>
-                <a href="">f</a>
+                <a href="/" class="me-3 fs-4"
+                  ><i class="fa-brands fa-facebook"></i
+                ></a>
+                <a href="/" class="me-3 fs-4"
+                  ><i class="fa-brands fa-linkedin"></i
+                ></a>
+                <a href="/" class="me-3 fs-4"
+                  ><i class="fa-brands fa-linkedin"></i
+                ></a>
+                <a href="/" class="me-3 fs-4"
+                  ><i class="fa-brands fa-square-whatsapp"></i
+                ></a>
+                <a href="/" class="me-3 fs-4"
+                  ><i class="fa-brands fa-youtube"></i
+                ></a>
               </div>
-              <p class="fs-6">
+              <p class="fs-6 mt-3">
                 <small
                   >All the trademarks are the property of their respective
                   owners.</small
@@ -267,21 +277,29 @@
               </p>
             </div>
           </div>
+        </div>
 
-          <p class="border-bottom py-4">
-            <a href="">Privacy policy</a> / <a href="">Terms and conditions</a>
-          </p>
+        <div class="border-bottom py-4 d-flex footer-para">
+          <p class="fs-6 me-3">Privacy Policy</p>
+          /
+          <p class="fs-6 ms-1">Terms and Conditions</p>
         </div>
       </div>
 
       <div class="my-5 px-4">
         <div class="d-lg-flex justify-content-between align-items-center">
           <a href="#">
-            <img style="width: 250px" src="./img/logo3.png" alt="" />
+            <img
+              style="width: 250px"
+              src="./img/logo3.png"
+              alt="HomeFree Realty Logo"
+            />
           </a>
-          <p>© 2024 homeFree Realty Inc. All rights reserved.</p>
+          <p class="mb-0 fw-bold footer-para">
+            © 2024 homeFree Realty Inc. All rights reserved.
+          </p>
         </div>
-        <p>
+        <p class="fs-6">
           The trademarks REALTOR®, REALTORS® and the REALTOR® logo are
           controlled by The Canadian Real Estate Association (CREA) and identify
           real estate professionals who are members of CREA. The trademarks
@@ -289,12 +307,13 @@
           CREA and identify the quality of services provided by real estate
           professionals who are members of CREA.
         </p>
-        <p>
+        <p class="fs-6">
           * Only when the buyer comes direct, otherwise the seller may choose to
           negotiate a commission with the buyer’s agent.
         </p>
       </div>
     </footer>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"

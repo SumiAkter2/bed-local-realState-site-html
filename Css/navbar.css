@@ -23,7 +23,7 @@
 
 }
 
-.contact-btn {
+.primary-button {
     margin-top: 10px;
     padding: 13px 25px;
     font-size: 18px;
@@ -45,9 +45,9 @@
 
 
 
-    .search-and-icons button {
+    /* .search-and-icons button {
         flex: 1;
-    }
+    } */
 }
 
 @media screen and (min-width: 768px) {
@@ -91,14 +91,15 @@
     }
 
 
-.navbar-nav>.nav-item:nth-last-child(2) .dropdown-menu,
-.navbar-nav>.nav-item:last-child .dropdown-menu {
-    right: 0;
-    left: auto;
-    margin-top: 20px;
-    transform: translateY(-10px) translateX(50px);
-}
-    .contact-btn {
+    .navbar-nav>.nav-item:nth-last-child(2) .dropdown-menu,
+    .navbar-nav>.nav-item:last-child .dropdown-menu {
+        right: 0;
+        left: auto;
+        margin-top: 20px;
+        transform: translateY(-10px) translateX(50px);
+    }
+
+    .primary-button {
         order: -1;
         margin-top: 10px;
         padding: 13px 25px;

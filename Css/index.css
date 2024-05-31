@@ -1,39 +1,30 @@
-/* for banner */
-.img-container img {
-    /* width: 700px;
-    height: 400px; */
-    padding: 0 30px;
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-p a {
+a {
     text-decoration: none;
-    color: #000;
 }
 
 .footer-menu a {
     text-decoration: none;
-    color: #8e6a6e;
+    color: #851012f9;
+    font-size: 18px;
+    font-weight: 500;
 }
+
+
+
+.footer-para {
+
+    color: #AD0609;
+    font-size: 18px;
+    font-weight: 500;
+}
+
 
 .footer-menu a:hover {
-    color: #000;
-}
-
-
-
-
-
-
-
-
-
-
-/* Mobile menu styles */
-@media  (max-width: 768px) {
-    .img-container img {
-        /* width: 350px; */
-        padding: 0 30px;
-
-    }
+    color: #AD0609;
 }
