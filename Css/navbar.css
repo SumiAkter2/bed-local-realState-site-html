@@ -40,7 +40,7 @@
     }
 
     .navbar .navbar-nav .nav-link {
-        padding: 0.5em 1em;
+        padding: 0.5em .5em;
     }
 
 
@@ -62,25 +62,44 @@
         align-items: flex-end;
     }
 
+    .navbar-nav>.nav-item:nth-last-child(2) .dropdown-menu,
+    .navbar-nav>.nav-item:last-child .dropdown-menu {
+        right: 0;
+        left: auto;
+        margin-top: 20px;
+        transform: translateY(-10px);
+    }
 
 }
 
 /* Mobile menu styles */
 @media (max-width: 768px) {
     .navbar-collapse {
-        background-color: #6e7d8c;
-        /* Change to your desired background color */
+        background-color: #b1b8be8e;
         text-align: center;
     }
 
     .navbar-nav .nav-item {
         margin-top: 10px;
-        /* Add margin top to menu items */
     }
 
+    .dropdown-menu {
+        width: fit-content;
+        transform: translateX(50%);
+        left: 50%;
+        transition: transform 0.3s ease;
+    }
+
+
+.navbar-nav>.nav-item:nth-last-child(2) .dropdown-menu,
+.navbar-nav>.nav-item:last-child .dropdown-menu {
+    right: 0;
+    left: auto;
+    margin-top: 20px;
+    transform: translateY(-10px) translateX(50px);
+}
     .contact-btn {
         order: -1;
-        /* Moves the contact button to the top */
         margin-top: 10px;
         padding: 13px 25px;
         font-size: 18px;
@@ -90,6 +109,5 @@
         color: white;
         font-weight: 600;
         width: 100%;
-        /* Make it full width for mobile view */
     }
 }
