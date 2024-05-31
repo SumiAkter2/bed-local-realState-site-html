@@ -78,7 +78,8 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+/* tablet */
+@media screen and (min-width: 561px)and (max-width: 768px) {
 
     .navbar .navbar-brand img {
         max-width: 7em;
@@ -126,7 +127,7 @@
 
     .dropdown-menu {
         width: fit-content;
-        transform: translateX(50%);
+        transform: translateX(25%);
         left: 50%;
         transition: transform 0.3s ease;
     }
@@ -137,7 +138,7 @@
         right: 0;
         left: auto;
         margin-top: 20px;
-        transform: translateY(-10px) translateX(50px);
+        transform: translateY(-10px) translateX(-20px);
     }
 
     .primary-button {
