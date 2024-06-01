@@ -72,6 +72,7 @@
     }
 
 
+
     .navbar .navbar-collapse .navbar-nav {
         display: flex;
         flex-direction: column;
@@ -106,7 +107,7 @@
 
 
     .navbar-collapse {
-        background-color: #b1b8be8e;
+        background-color: #b1b8bec8;
         text-align: center;
         transition: transform 0.3s ease;
     }

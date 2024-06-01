@@ -39,6 +39,7 @@
           <span class="hamburger-icon border-0"
             ><i class="fa-solid fa-bars"></i
           ></span>
+          <!-- <span class="close-icon d-none">X</span> -->
           <span class="close-icon d-none text-danger border-0"
             ><i class="fa-solid fa-x"></i
           ></span>
@@ -713,7 +714,22 @@
         </p>
       </div>
     </footer>
+    <!-- js -->
 
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        var navbarToggler = document.querySelector(".navbar-toggler");
+        var hamburgerIcon = document.querySelector(
+          ".navbar-toggler .hamburger-icon"
+        );
+        var closeIcon = document.querySelector(".navbar-toggler .close-icon");
+
+        navbarToggler.addEventListener("click", function () {
+          hamburgerIcon.classList.toggle("d-none");
+          closeIcon.classList.toggle("d-none");
+        });
+      });
+    </script>
     <!-- Bootstrap JS dependencies -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.6/umd/popper.min.js"></script>
