@@ -65,10 +65,11 @@ body {
 }
 
 
-/* for  desktop*/
-@media screen and(max-width:990px) {
-    .img-slider-content {
-        width: 100px;
 
+@media (max-width: 560px) {
+
+    .footer-menu a,
+    .footer-para {
+        font-size: 12px;
     }
 }
