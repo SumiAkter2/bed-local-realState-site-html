@@ -2,8 +2,14 @@
 @media only screen and (min-width: 1024px) {
 
 
-    body p {
+    body p,
+    .details-text {
         font-size: 18px;
+    }
+
+    .img-slider-content-details {
+        width: 75%;
+        margin: 0 auto;
     }
 }
 
@@ -11,8 +17,14 @@
 @media only screen and (max-width: 1023px) and (min-width: 768px) {
 
 
-    body p {
-        font-size: 16px;
+    body p,
+    .details-text {
+        font-size: 14px;
+    }
+
+    .img-slider-content-details {
+        width: 90%;
+        margin: 0 auto;
     }
 }
 
@@ -20,7 +32,13 @@
 @media only screen and (max-width: 767px) {
 
 
-    body p {
-        font-size: 14px;
+    body p,
+    .details-text {
+        font-size: 12px;
+    }
+
+    .img-slider-content-details {
+        width: 100%;
+        margin: 0 auto;
     }
 }
