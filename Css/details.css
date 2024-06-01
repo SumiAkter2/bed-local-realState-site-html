@@ -1,0 +1,26 @@
+/* For desktops */
+@media only screen and (min-width: 1024px) {
+
+
+    body p{
+        font-size: 18px;
+    }
+}
+
+/* For tablets */
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+
+
+    body p{
+        font-size: 16px;
+    }
+}
+
+/* For mobile phones */
+@media only screen and (max-width: 767px) {
+
+
+    body p{
+        font-size: 12px;
+    }
+}
