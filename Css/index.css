@@ -6,15 +6,21 @@
     box-sizing: border-box;
 }
 
+
 body {
     font-family: "Poppins", sans-serif;
     font-style: normal;
 }
 
 
+
 .img-slider-content a {
     color: black;
     text-decoration: none;
+}
+
+.logo img {
+    width: 250px;
 }
 
 .img-slider {
@@ -67,12 +73,33 @@ body {
     color: #AD0609;
 }
 
+.img-slider-content {
+    width: 265px !important;
+    margin: 0 auto;
+}
+
+
+@media (max-width: 768px) {
+    .img-slider-content {
+        width: 300px !important;
+        margin: 0 auto;
+    }
+}
 
 
 @media (max-width: 560px) {
 
+    .img-slider-content {
+        width: 100% !important;
+        margin: 0 auto;
+    }
+
     .footer-menu a,
     .footer-para {
         font-size: 12px;
+    }
+
+    .logo img {
+        width: 150px;
     }
 }
