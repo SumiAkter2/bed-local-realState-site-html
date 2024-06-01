@@ -39,9 +39,12 @@ body {
     font-weight: 500;
 }
 
-
+.mid-ads {
+    height: 100px;
+}
 
 /* footer */
+
 
 .footer-menu a {
     text-decoration: none;
