@@ -2,8 +2,7 @@
 @media only screen and (min-width: 1024px) {
 
 
-    body p,
-    .details-text {
+    body p {
         font-size: 18px;
     }
 
@@ -14,12 +13,16 @@
 }
 
 /* For tablets */
-@media only screen and (max-width: 1023px) and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
 
 
-    body p,
+    body p {
+        font-size: 18px;
+    }
+
     .details-text {
-        font-size: 14px;
+        font-size: 16px;
+        font-weight: 700;
     }
 
     .img-slider-content-details {
@@ -32,9 +35,13 @@
 @media only screen and (max-width: 767px) {
 
 
-    body p,
+    body p {
+        font-size: 16px;
+    }
+
     .details-text {
-        font-size: 12px;
+        font-size: 14px;
+        font-weight: 700;
     }
 
     .img-slider-content-details {
